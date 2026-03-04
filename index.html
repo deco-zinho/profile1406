@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio - André Gustavo</title>
+    <style>
+        /* Reset básico e fontes */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2d3436;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        /* Container Principal */
+        .cv-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 700px;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-top: 8px solid #3498db;
+        }
+
+        /* Topo do Currículo */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .nome {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sub-info {
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+
+        /* Seções */
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            color: #3498db;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        /* Estilizando a Lista (Centralizada) */
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style: none; /* Remove as bolinhas padrão */
+        }
+
+        li {
+            padding: 5px 0;
+            font-weight: 600;
+            color: #34495e;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Adiciona um checkmark antes de cada item da lista */
+        li::before {
+            content: "✓";
+            color: #27ae60;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        /* Rodapé/Contato */
+        .footer-info {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .footer-info p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+
+        strong {
+            color: #3498db;
+        }
+
+        .footer-info strong {
+            color: #bdc3c7;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="cv-card">
+        <header>
+            <h1 class="nome">André Gustavo Lima</h1>
+            <p class="sub-info">Estudante de Desenvolvimento de Sistemas | 16 anos</p>
+        </header>
+
+        <section>
+            <h2>Sobre Mim</h2>
+            <p><strong>Habilidades:</strong> Inglês Intermediário e Proatividade.</p>
+            <p><strong>Escolaridade:</strong> 3º ano do Ensino Médio Técnico (Desenvolvimento de Sistemas).</p>
+        </section>
+
+        <section>
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <ul>
+                    <li>Edição de Vídeo</li>
+                    <li>Canva Design</li>
+                    <li>Comunicação</li>
+                    <li>Informática Avançada</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experiência Profissional</h2>
+            <p><strong>YouTube:</strong> Editor e Criador no canal "Bistecone Live".</p>
+        </section>
+
+        <div class="footer-info">
+            <p><strong>Telefone:</strong> (41) 98450-6625</p>
+            <p><strong>E-mail:</strong> slurp914@gmail.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
